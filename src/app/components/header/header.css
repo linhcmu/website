@@ -1,0 +1,47 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+.navbar-default {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.89);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color :#00aeef;
+}
+
+.navbar-header {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.navbar-collapse ul li {
+    padding-right: 30px;
+}
+
+.navbar-collapse ul li a {
+    line-height: 25px;
+		color: #aaaaaa;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    -webkit-transition: .2s all;
+    -o-transition: .2s all;
+    transition: .2s all;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color :#00aeef;
+	border-bottom: solid 2px;
+	border-bottom-color: #1aace3;
+}
