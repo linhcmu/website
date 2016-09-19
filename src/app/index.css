@@ -7,11 +7,16 @@
     font-family: 'awesome';
     src: url(../bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf);
 }
+
+
 /* var text-decoration */
+
+
 /*--
 	Common Css
 --*/
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }

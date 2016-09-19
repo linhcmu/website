@@ -1,0 +1,14 @@
+#main {
+	padding-top: 100px;
+	text-align: center; 
+}
+ img {
+ 	border-top: solid 1px #ccc;
+ 	border-bottom: solid 1px #ccc;
+ }
+ a:hover, a:focus {
+ 	text-decoration : none;
+ }
+ a:hover > h3, a:focus > h3 {
+ 	color: #1aace3;
+ }

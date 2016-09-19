@@ -3,10 +3,10 @@
 
   angular
     .module('website')
-    .directive('acmeNavbar', acmeNavbar);
+    .directive('leftShop', leftShop);
 
   /** @ngInject */
-  function acmeNavbar() {
+  function leftShop() {
     var directive = {
       restrict: 'E',
       templateUrl: 'app/components/navbar/navbar.html',
