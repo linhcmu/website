@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {},
   "scripts": {
-    "test": "test gulp",
+    "gulp": "gulp",
     "postinstall": "bower install && gulp default"
   },
   "devDependencies": {
