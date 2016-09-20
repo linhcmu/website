@@ -18,6 +18,14 @@ a:focus > h3 {
     color: #1aace3;
 }
 
+.thumbnail:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: ghostwhite;
+}
+
+
+/*Image hover effect*/
+
 .hovereffect {
     width: 100%;
     height: 100%;
@@ -36,17 +44,16 @@ a:focus > h3 {
     top: 0;
     left: 0;
     opacity: 0;
-    filter: alpha(opacity=0);
     background-color: rgba(0, 0, 0, 0.5);
-    -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-    transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
 }
 
 .hovereffect img {
     display: block;
     position: relative;
-    -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-    transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
 }
 
 .hovereffect h2 {
@@ -59,8 +66,8 @@ a:focus > h3 {
     -webkit-transform: translatey(-100px);
     -ms-transform: translatey(-100px);
     transform: translatey(-100px);
-    -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-    transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     padding: 10px;
 }
 
@@ -73,8 +80,8 @@ a:focus > h3 {
     background-color: transparent;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     margin: 50px 0 0;
     padding: 7px 14px;
 }
