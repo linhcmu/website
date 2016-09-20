@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "dependencies": {},
   "scripts": {
-    "gulp": "gulp",
-    "postinstall": "bower install && gulp default"
+    "start": "gulp",
+    "postinstall": "bower install && gulp build"
   },
   "devDependencies": {
     "estraverse": "~4.1.0",
