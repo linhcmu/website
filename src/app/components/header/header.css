@@ -9,12 +9,13 @@
     letter-spacing: 0.25em;
     text-transform: uppercase;
     background: rgba(255, 255, 255, 0.89);
-    font-family: "Open Sans",Helvetica, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: bold;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-	color :#1aace3;
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #1aace3;
     font-size: 12px;
     transition: .1s all;
 }
@@ -37,13 +38,14 @@
     -o-transition: .2s all;
     transition: .2s all;
 }
-.navbar-default .navbar-nav > li > a:hover, 
+
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color :#1aace3;
-	border-bottom: solid 3px;
-	border-bottom-color: #1aace3;
-	transition: .2s all;
-    font-size:10px;
+    color: #1aace3;
+    border-bottom: solid 3px;
+    border-bottom-color: #1aace3;
+    transition: .2s all;
+    font-size: 10px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -54,13 +56,13 @@
     .navbar-collapse {
         float: none;
     }
-    
+}
+
 @media screen and (min-width: 767px) and (max-width: 1199px) {
     .navbar-default .navbar-nav {
         background: rgba(255, 255, 255, 0.89);
     }
-    .navbar-default .navbar-nav{
+    .navbar-default .navbar-nav {
         font-size: 10px;
     }
-
 }

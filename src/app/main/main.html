@@ -4,8 +4,14 @@
             <div ng-repeat="item in [1,2,3,4,5,6,7,8,9,10,11,12] track by $index">
                 <div class="col-md-3 col-xs-12 col-sm-6">
                     <div class="thumbnail">
-                        <a href="#"><h3>{{main.product.name}}</h3></a>
-                        <a href="#"><img ng-src="{{main.product.image}}" alt=""></a>
+                            <a href="#"><h3>{{main.product.name}}</h3></a>
+                        <div class="hovereffect">
+                            <a href="#"><img ng-src="{{main.product.image}}" alt=""></a>
+                            <div class="overlay">
+                                <h2>{{main.product.name}}</h2>
+                                <a class="info" href="#">See Detail</a>
+                            </div>
+                        </div>
                         <div class="caption">
                             <p>{{main.product.description}}</p>
                         </div>
