@@ -114,3 +114,10 @@ a:focus > h3 {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
 }
+.store-header {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.see-more h4{
+	float:right;
+}
